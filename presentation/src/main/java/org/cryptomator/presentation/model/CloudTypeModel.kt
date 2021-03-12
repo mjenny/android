@@ -15,6 +15,9 @@ enum class CloudTypeModel(builder: Builder) {
 	ONEDRIVE(Builder("ONEDRIVE", R.string.cloud_names_onedrive) //
 			.withCloudImageResource(R.drawable.cloud_type_onedrive) //
 			.withCloudImageLargeResource(R.drawable.cloud_type_onedrive_large)),  //
+	PCLOUD(Builder("PCLOUD", R.string.cloud_names_dropbox) //
+			.withCloudImageResource(R.drawable.cloud_type_dropbox) //
+			.withCloudImageLargeResource(R.drawable.cloud_type_dropbox_large)),  //
 	WEBDAV(Builder("WEBDAV", R.string.cloud_names_webdav) //
 			.withCloudImageResource(R.drawable.cloud_type_webdav) //
 			.withCloudImageLargeResource(R.drawable.cloud_type_webdav_large) //
