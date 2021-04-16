@@ -60,6 +60,9 @@ ext {
 	msgraphVersion = '2.10.0'
 	msaAuthVersion = '0.10.0'
 
+	pCloudSdkCore = '1.4.0'
+	pCloudSdkAndroid = '1.4.0'
+
 	commonsCodecVersion = '1.15'
 
 	recyclerViewFastScrollVersion = '2.0.1'
@@ -132,6 +135,8 @@ ext {
 			multidex              : "androidx.multidex:multidex:${multidexVersion}",
 			okHttp                : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
 			okHttpDigest          : "com.burgstaller:okhttp-digest:${okHttpDigestVersion}",
+			pCloudSdkCore         : "com.pcloud.sdk:java-core:${pCloudSdkCore}",
+			pCloudSdkAndroid      : "com.pcloud.sdk:android:${pCloudSdkAndroid}",
 			recyclerViewFastScroll: "com.simplecityapps:recyclerview-fastscroll:${recyclerViewFastScrollVersion}",
 			rxJava                : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
 			rxAndroid             : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",

@@ -120,7 +120,7 @@ dependencies {
 	implementation project(':util')
 	implementation project(':domain')
 	implementation project(':data')
-	implementation project(':pcloud-sdk-android')
+	//implementation project(':pcloud-sdk-android')
 
 	// dagger
 	kapt dependencies.daggerCompiler
@@ -143,6 +143,7 @@ dependencies {
 	// cloud
 	implementation dependencies.dropbox
 	implementation dependencies.msgraph
+	implementation dependencies.pCloudSdkAndroid
 
 	playstoreImplementation(dependencies.googleApiServicesDrive) {
 		exclude module: 'guava-jdk5'

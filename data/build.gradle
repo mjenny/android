@@ -88,7 +88,7 @@ dependencies {
 	implementation project(':domain')
 	implementation project(':util')
 	implementation project(':msa-auth-for-android')
-	implementation project(':pcloud-sdk-java')
+	//implementation project(':pcloud-sdk-java')
 
 	// cryptomator
 	implementation dependencies.cryptolib
@@ -101,6 +101,7 @@ dependencies {
 	// cloud
 	implementation dependencies.dropbox
 	implementation dependencies.msgraph
+	implementation dependencies.pCloudSdkCore
 
 	playstoreImplementation dependencies.googlePlayServicesAuth
 	apkstoreImplementation dependencies.googlePlayServicesAuth
